@@ -65,7 +65,8 @@ def main():
 
     # 写入txt文件中
     for title in title_list:
-        with open('E:/RoboMaster/Week 7/copy/title.txt', 'a', encoding='utf8') as f:
+        #这里的文件地址自行更改
+        with open('\home\title.txt', 'a', encoding='utf8') as f:
             f.write(title + '\n')
 
 
